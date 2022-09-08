@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.body{
+    width: 1024px;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    width: 360px;
+}
+
+
+.container__calculadora{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    align-items: center;      
+}
+
+
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.buttons{
+    margin-top: px;
+}
+
+.container__calculadora input{ 
+    width:100px;
+    height:20px;
+    margin-bottom: 5px
+}
+
+.container__calculadora button{   
+    width: 80px;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.result{
+    margin-top: 20px;
+    font-size: 40px;
+}
